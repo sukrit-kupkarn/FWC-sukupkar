@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.parallax {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6e/Golde33443.jpg");
+}
+
+.second {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/55/Beagle_600.jpg");
+}
+
+.caption {
+    padding: 16px 28px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 28px;
+}
+
+.block {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 28px;
+}
